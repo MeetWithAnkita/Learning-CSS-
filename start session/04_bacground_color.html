@@ -1,0 +1,116 @@
+<!-- <html>
+    <head>
+        <title>
+            Background Colour
+        </title>
+        <style>
+            body
+            {
+                background-color: rgb(172, 238, 235);
+            }
+            h1{
+                background-color: deeppink;
+                color: black;
+                font: 20px;
+                border: 20px solid maroon;
+                text-align: center;
+            }
+            div
+            {
+                background-color: coral;
+            }
+            #f
+            {
+                background-color: rgb(240, 73, 100);
+                opacity: 1;
+            }
+            #s
+            {
+                background-color: rgb(240, 73, 100);
+                opacity: 0.6;
+            }
+            #t
+            {
+                background-color: rgb(240, 73, 100);
+                opacity: 0.3;
+            }
+            #fo
+            {
+                background-color: rgb(240, 73, 100);
+                opacity: 0.1;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HEADING</h1>
+        <div>
+            This is the 1st line in div section.
+            <P>PARAGRAPH</P>
+            This is the 2nd line in div section.
+        </div>
+        <P id="f">PARAGRAPH2</P>
+        <P id="s">PARAGRAPH3</P>
+        <P id="t">PARAGRAPH4</P>
+        <P id="fo">PARAGRAPH5</P>
+    </body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <style>
+ div {
+   background: rgba(0, 128, 0);
+ }
+ 
+ div.first {
+   background: rgba(0, 128, 0, 0.1);
+ }
+ 
+ div.second {
+   background: rgba(0, 128, 0, 0.3);
+ }
+ 
+ div.third {
+   background: rgba(0, 128, 0, 0.6);
+ }
+ </style>
+ </head>
+
+ <body>
+ <h1>Transparent Boxes 2</h1>
+ <p>Result with opacity:</p>
+ <div style="opacity:0.1;">
+   <h1>10% opacity</h1>
+ </div>
+ <div style="opacity:0.3;">
+   <h1>30% opacity</h1>
+ </div>
+ <div style="opacity:0.6;">
+   <h1>60% opacity</h1>
+ </div>
+ <div>
+   <h1>opacity 1</h1>
+ </div>
+ <!-- ............................ -->
+ <p>Result with rgba():</p>
+ 
+ <div class="first">
+   <h1>10% opacity</h1>
+ </div>
+ <div class="second">
+   <h1>30% opacity</h1>
+ </div>
+ <div class="third">
+   <h1>60% opacity</h1>
+ </div>
+ <div>
+   <h1>default</h1>
+ </div>
+ 
+ <p>Notice how the text gets transparent as well as the background color when using the opacity property.</p>
+ 
+ </body>
+ </html>
+ 
